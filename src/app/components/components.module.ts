@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuComponent } from './menu/menu.component';
 import { PageHeaderComponent } from './headers/page-header/page-header.component';
 import { IonicModule } from '@ionic/angular';
+import { ModalHeaderComponent } from './headers/modal-header/modal-header.component';
 
 
 
 @NgModule({
   declarations: [
-    MenuComponent,
     PageHeaderComponent,
+    ModalHeaderComponent,
   ],
   imports: [
     CommonModule,
     IonicModule,
   ],
   exports: [
-    MenuComponent,
     PageHeaderComponent,
+    ModalHeaderComponent,
   ]
 })
 export class ComponentsModule { }
