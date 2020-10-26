@@ -1,0 +1,7 @@
+{
+  "name": "fsbr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
